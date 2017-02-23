@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" href="css/styles.css" />
+    <link type="css/bootstrap.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js"></script>
+    <script src="js/module.js"></script>
+    <script src="output/outputCtrl.js"></script>
+    <script src="input/inputCtrl.js"></script>
+    <script src="js/factory.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.1.1.js"></script>
+
+    <title>MadLibs</title>
+</head>
+
+<body ng-app = "madLibs">
+
+  <nav class="navbar" style="padding-left:87px;">
+    <img src ="/img/gilligansislandlogo.png" />
+
+    <div class = "title">
+
+    </div>
+</nav>
+</div>
+
+  <!-- <div container ="container">
+      <div class = "row">
+        <div class = "col-lg-12">
+          <img src ="/img/gilligansislandlogo.jpg" />
+          <span class = "title">MADlib</span>
+    </div>
+  </div> -->
+
+<div class = 'navBar'>
+  <nav class = 'navBarRight'>
+  <button type"button">
+    <a href="#/input">input</a>
+    </button>
+    <button type"button">
+      <a href = "#/output">output</a>
+      </button>
+  </nav>
+</div>
+</div>
+
+<header>
+  <div class = "container">
+    <div class = "row">
+      <div class="col-lg-12">
+<ng-view></ng-view>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+
+
+
+</body>
+
+</html>

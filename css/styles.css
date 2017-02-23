@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Gloria Hallelujah', cursive;;
+}
+
+.title{
+  font-family: 'Gloria Hallelujah', cursive;
+  color: white;
+}
+
+h1{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 50px;
+    color: white;
+
+}
+
+img{
+
+  margin-right:50%
+}
+
+header {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  height:50%;
+  background: rgba(240, 230, 140, 0.5);;
+}
+
+header .container {
+  padding:2%;
+}
+
+
+body{
+  background-image: url(/img/minnow_big.jpg);
+}
+
+.navigation{
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+#navBar{
+  text-align: left;
+}
+
+.navBarRight {
+margin-left: 10%;
+font-size: 20px;
+}
+
+a{
+   text-decoration: none !important;
+   font-family: sans-serif;
+   padding-right: 5%;
+}
+
+a:visited {
+    color: peru;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+.title{
+color: white;
+position: inherit;
+
+}
